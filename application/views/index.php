@@ -16,6 +16,74 @@
     <link href="https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700" rel="stylesheet" type="text/css" />
     <!-- Core theme CSS (includes Bootstrap)-->
     <link href="https://anumainterior.herokuapp.com/assets/css/styles.css" rel="stylesheet" />
+    <!-- <link rel="stylesheet" href="<?= base_url('assets/') ?>font-awesome/css/font-awesome.min.css"> -->
+
+    <style>
+        body {
+            background-color: #333333;
+        }
+
+        .btn-primary {
+            background-color: #65350f;
+            border-color: #65350f;
+        }
+
+        .btn-primary:hover {
+            color: #fff;
+            background-color: #79471f;
+            background-color: #79471f;
+        }
+
+        .btn-primary:focus,
+        .btn-primary.focus {
+            color: #fff;
+            background-color: #79471f;
+            background-color: #79471f;
+            box-shadow: 0 0 0 0.2rem rgba(254, 216, 84, 0.5);
+        }
+
+        .btn-primary.disabled,
+        .btn-primary:disabled {
+            color: #fff;
+            background-color: #79471f;
+            background-color: #79471f;
+        }
+
+        .btn-primary:not(:disabled):not(.disabled):active,
+        .btn-primary:not(:disabled):not(.disabled).active,
+        .show>.btn-primary.dropdown-toggle {
+            color: #fff;
+            background-color: #79471f;
+            background-color: #79471f;
+        }
+
+        .btn-primary:not(:disabled):not(.disabled):active:focus,
+        .btn-primary:not(:disabled):not(.disabled).active:focus,
+        .show>.btn-primary.dropdown-toggle:focus {
+            box-shadow: 0 0 0 0.2rem rgba(254, 216, 84, 0.5);
+        }
+
+        .text-primary {
+            color: #cc9966 !important;
+        }
+
+        #mainNav .navbar-nav .nav-item .nav-link.active,
+        #mainNav .navbar-nav .nav-item .nav-link:hover {
+            color: #cf8e5d;
+        }
+
+        #portfolio .portfolio-item .portfolio-link .portfolio-hover {
+            display: flex;
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            background: #c96c;
+            align-items: center;
+            justify-content: center;
+            opacity: 0;
+            transition: opacity ease-in-out 0.25s;
+        }
+    </style>
 </head>
 
 <body id="page-top">
@@ -51,33 +119,35 @@
     <section class="page-section" id="services">
         <div class="container">
             <div class="text-center">
-                <h2 class="section-heading text-uppercase">Services</h2>
-                <h3 class="section-subheading text-muted">Mengapa Harus Belanja di Anuma Jaya Interior Semarang?</h3>
+                <h2 class="section-heading text-uppercase" style="color: white;">Services</h2>
+                <h3 class="section-subheading text-muted" style="color: #f5f5f5 ;">Mengapa Harus Belanja di Anuma Jaya Interior Semarang?</h3>
             </div>
             <div class="row text-center">
                 <div class="col-md-4">
                     <span class="fa-stack fa-4x">
                         <i class="fas fa-circle fa-stack-2x text-primary"></i>
-                        <i class="fas fa-shopping-cart fa-stack-1x fa-inverse"></i>
+                        <i class="fas fa-check fa-stack-1x fa-inverse"></i>
                     </span>
-                    <h4 class="my-3">Kualitas Terbaik</h4>
-                    <p class="text-muted">Kami selalu menghadirkan desain interior dengan kualitas unggul, jadi Anda tak perlu ragu. </p>
+                    <h4 class="my-3" style="color: white;">Kualitas Terbaik</h4>
+                    <p class="text-muted" style="color: #f5f5f5 ;">Kami selalu menghadirkan desain interior dengan kualitas unggul, jadi Anda tak perlu ragu. </p>
                 </div>
                 <div class="col-md-4">
                     <span class="fa-stack fa-4x">
                         <i class="fas fa-circle fa-stack-2x text-primary"></i>
-                        <i class="fas fa-laptop fa-stack-1x fa-inverse"></i>
+                        <i class="fas fa-coins fa-stack-1x fa-inverse"></i>
+                        <!-- <i class="fas fa-laptop fa-stack-1x fa-inverse"></i> -->
                     </span>
-                    <h4 class="my-3">Harga Terjangkau</h4>
+                    <h4 class="my-3" style="color: white;">Harga Terjangkau</h4>
                     <p class="text-muted">Kualitas oke & harga terjangkau kami berikan untuk setiap produk dan jasa interior. </p>
                 </div>
                 <div class="col-md-4">
                     <span class="fa-stack fa-4x">
                         <i class="fas fa-circle fa-stack-2x text-primary"></i>
-                        <i class="fas fa-lock fa-stack-1x fa-inverse"></i>
+                        <!-- <i class="fas fa-lock fa-stack-1x fa-inverse"></i> -->
+                        <i class="fas fa-puzzle-piece fa-stack-1x fa-inverse"></i>
                     </span>
-                    <h4 class="my-3">Pengiriman Cepat</h4>
-                    <p class="text-muted">Setiap produk pesanan Anda akan segera kami proses dan dikirimkan ke tempat tujuan. </p>
+                    <h4 class="my-3" style="color: white;">Custom Design</h4>
+                    <p class="text-muted">Sesuaikan desain interior seperti yang Anda impikan.</p>
                 </div>
             </div>
         </div>
