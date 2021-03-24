@@ -272,7 +272,7 @@
                             <img class="img-fluid" src="<?= base_url('assets/'); ?>assets/img/product/pt.indo-solution/pic1-square.jpeg" alt="" />
                         </a>
                         <div class="portfolio-caption">
-                            <div class="portfolio-caption-heading">PT. Indo Solution</div>
+                            <div class="portfolio-caption-heading" style="font-size: 1.35rem;">PT. Indo Energy Solution</div>
                             <div class="portfolio-caption-subheading text-muted">Office</div>
                         </div>
                     </div>
@@ -286,8 +286,8 @@
                             <img class="img-fluid" src="<?= base_url('assets/'); ?>assets/img/product/walking-closet-mr.arif/pic1-square.png" alt="" />
                         </a>
                         <div class="portfolio-caption">
-                            <div class="portfolio-caption-heading">Walking Closet Mr. Arif</div>
-                            <div class="portfolio-caption-subheading text-muted">???</div>
+                            <div class="portfolio-caption-heading">Bedroom Set Mr. Arif</div>
+                            <div class="portfolio-caption-subheading text-muted">Bedroom</div>
                         </div>
                     </div>
                 </div>
@@ -313,41 +313,41 @@
     <section class="page-section" style="background-color: #21252 ;" id="team">
         <div class="container">
             <div class="text-center">
-                <h2 class="section-heading text-uppercase" style="color:white;">Testimoni</h2>
+                <h2 class="section-heading text-uppercase" style="color:white;">What They Say About Us</h2>
                 <h3 class="section-subheading text-muted">Mereka sudah membuktikannya</h3>
             </div>
             <div class="row">
                 <div class="col-lg-4">
                     <div class="card">
                         <div class="team-member">
-                            <img class="mx-auto rounded-circle" src="<?= base_url('assets/'); ?>assets/img/testimoni/lisa.png" alt="" />
-                            <h4 style="margin-bottom: 5%;">Lisa Manoban</h4>
-                            <p class="text-muted">"Saya telah banyak mengeliarkan uang untuk membeli perabotan di Anuma Jaya, dan saya tidak menyesalinya"</p>
+                            <img class="mx-auto rounded-circle" src="<?= base_url('assets/'); ?>assets/img/testimoni/mr-riffi.jpeg" alt="" />
+                            <h4 style="margin-bottom: 5%;">Mr. Riffo</h4>
+                            <p class="text-muted">"Top banget pelayanan dari Anuma Interior. Gak nyesel saya menggunakan jasa Anuma Interior."</p>
                         </div>
                     </div>
                 </div>
                 <div class="col-lg-4">
                     <div class="card">
                         <div class="team-member">
-                            <img class="mx-auto rounded-circle" src="<?= base_url('assets/'); ?>assets/img/testimoni/jisoo.png" alt="" />
-                            <h4 style="margin-bottom: 5%;">Kim Jisoo</h4>
-                            <p class="text-muted">"Selama ini saya mencari barang interior di banyak tempat, namun masih belum sesuai dengan keinginanku. Kini, aku bisa menemukan barang yang aku impikan di Anuma Jaya"</p>
+                            <img class="mx-auto rounded-circle" src="<?= base_url('assets/'); ?>assets/img/testimoni/mrs-puji-wulan.jpeg" alt="" />
+                            <h4 style="margin-bottom: 5%;">Mrs. Puji Wulan</h4>
+                            <p class="text-muted">"Akhirnya saya bisa mewujudkan desain interior impianku. Semua itu berkat Anuma Interior. Makasih banget Anuma Interior."</p>
                         </div>
                     </div>
                 </div>
                 <div class="col-lg-4">
                     <div class="card">
                         <div class="team-member">
-                            <img class="mx-auto rounded-circle" src="<?= base_url('assets/'); ?>assets/img/testimoni/jennie.png" alt="" />
-                            <h4 style="margin-bottom: 5%;">Kim Jennie</h4>
-                            <p class="text-muted">"Tolong bantu aku!. Aku ketagihan membeli barang di Anuma Jaya. Aku kini menjadi pelanggan setia Anuma Jaya untuk selama-lamanya"</p>
+                            <img class="mx-auto rounded-circle" src="<?= base_url('assets/'); ?>assets/img/testimoni/mrs-tri.jpeg" alt="" />
+                            <h4 style=" margin-bottom: 5%;">Mrs. Tri</h4>
+                            <p class="text-muted">"Baru pertama kali nyoba menggunakan pelayanan Anuma Interior langsung bikin jatuh hati. Puas banget dengan pelayananya."</p>
                         </div>
                     </div>
                 </div>
             </div>
             <div class="row">
                 <div class="col-lg-8 my-5 mx-auto text-center">
-                    <p class="large text-muted">Blackpink telah menjadi Brand Ambassador Anuma Jaya sejak 2020 lalu. Mereka percaya dengan kualitas Anuma Jaya</p>
+                    <!-- <p class="large text-muted">Blackpink telah menjadi Brand Ambassador Anuma Jaya sejak 2020 lalu. Mereka percaya dengan kualitas Anuma Jaya</p> -->
                 </div>
             </div>
         </div>
@@ -362,10 +362,10 @@
     <div id="contact" class="map" style="margin-top: 0;">
         <div class="text-center">
         </div>
-        <iframe class="my-6" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3960.1702798588353!2d110.40271761470557!3d-6.989214494951035!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e708bdf3d92b69b%3A0x9dd2d1049fa46b0!2sANUMA%20INTERIOR%20HOME%20LIVING!5e0!3m2!1sid!2sid!4v1616573613177!5m2!1sid!2sid" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3959.8958366223105!2d110.38267051477347!3d-7.021528894928141!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zN8KwMDEnMTcuNSJTIDExMMKwMjMnMDUuNSJF!5e0!3m2!1sen!2sid!4v1616577711350!5m2!1sen!2sid"></iframe>
         <br />
         <small>
-            <a href="https://www.google.co.id/maps/place/ANUMA+INTERIOR+HOME+LIVING/@-6.9892145,110.4027176,17z/data=!3m1!4b1!4m5!3m4!1s0x2e708bdf3d92b69b:0x9dd2d1049fa46b0!8m2!3d-6.9892145!4d110.4049063"></a>
+            <a href="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3959.8958366223105!2d110.38267051477347!3d-7.021528894928141!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zN8KwMDEnMTcuNSJTIDExMMKwMjMnMDUuNSJF!5e0!3m2!1sen!2sid!4v1616577711350!5m2!1sen!2sid"></a>
         </small>
     </div>
     <!-- Footer-->
@@ -374,9 +374,9 @@
             <div class="row align-items-center">
                 <div class="col-lg-4 text-lg-left">Copyright © Your Website 2020</div>
                 <div class="col-lg-4 my-3 my-lg-0">
-                    <a class="btn btn-dark btn-social mx-2" href="#!"><i class="fab fa-whatsapp"></i></a>
-                    <a class="btn btn-dark btn-social mx-2" href="#!"><i class="fab fa-facebook-f"></i></a>
-                    <a class="btn btn-dark btn-social mx-2" href="#!"><i class="fab fa-linkedin-in"></i></a>
+                    <a class="btn btn-dark btn-social mx-2" href="https://wa.wizard.id/8f2677"><i class="fab fa-whatsapp"></i></a>
+                    <a class="btn btn-dark btn-social mx-2" href="https://www.instagram.com/anumajaya/"><i class="fab fa-instagram"></i></a>
+                    <a class="btn btn-dark btn-social mx-2" href="https://vt.tiktok.com/ZSJ2drMRh/"><i class="fab fa-tiktok"></i></a>
                 </div>
             </div>
         </div>
@@ -552,7 +552,7 @@
                         <div class="col-lg-8">
                             <div class="modal-body">
                                 <!-- Project Details Go Here-->
-                                <h2 class="text-uppercase">PT. Indo Solution</h2>
+                                <h2 class="text-uppercase">PT. Indo Energy Solution</h2>
                                 <p class="item-intro text-muted">Office</p>
                                 <div id="carouselExampleIndicators4" class="carousel slide" data-ride="carousel">
                                     <ol class="carousel-indicators">
@@ -612,8 +612,8 @@
                         <div class="col-lg-8">
                             <div class="modal-body">
                                 <!-- Project Details Go Here-->
-                                <h2 class="text-uppercase">Walking Closet Mr. Arif</h2>
-                                <p class="item-intro text-muted">???</p>
+                                <h2 class="text-uppercase">Bedroom Set Mr. Arif</h2>
+                                <p class="item-intro text-muted">Bedroom</p>
                                 <div id="carouselExampleIndicators5" class="carousel slide" data-ride="carousel">
                                     <ol class="carousel-indicators">
                                         <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
