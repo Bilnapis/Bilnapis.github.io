@@ -124,6 +124,26 @@
             height: 90vh;
             max-height: 500px;
         }
+
+        .map {
+            height: 30rem;
+        }
+
+        @media (max-width: 992px) {
+            .map {
+                /* height: 90%; */
+            }
+        }
+
+        .map iframe {
+            pointer-events: none;
+        }
+
+        .map iframe {
+            height: 100%;
+            width: 100%;
+            border: 0;
+        }
     </style>
 </head>
 
@@ -141,7 +161,7 @@
                     <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#services">Services</a></li>
                     <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#portfolio">Product</a></li>
                     <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#team">Testimonial</a></li>
-                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#contact">Contact</a></li>
+                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#contact">Address & Contact</a></li>
                 </ul>
             </div>
         </div>
@@ -290,10 +310,10 @@
     </section>
 
     <!-- Testimoni-->
-    <section class="page-section bg-light" id="team">
+    <section class="page-section" style="background-color: #21252 ;" id="team">
         <div class="container">
             <div class="text-center">
-                <h2 class="section-heading text-uppercase">Testimoni</h2>
+                <h2 class="section-heading text-uppercase" style="color:white;">Testimoni</h2>
                 <h3 class="section-subheading text-muted">Mereka sudah membuktikannya</h3>
             </div>
             <div class="row">
@@ -331,78 +351,32 @@
                 </div>
             </div>
         </div>
+        <div class="text-center">
+            <h2 class="section-heading text-uppercase mt-5" style="color:white;">Address</h2>
+            <h3 class="section-subheading text-muted ">Temukan Kami</h3>
+        </div>
     </section>
 
-    <!-- Clients-->
-    <div class="py-5">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-3 col-sm-6 my-3">
-                    <a href="#!"><img class="img-fluid d-block mx-auto" src="assets/img/logos/envato.jpg" alt="" /></a>
-                </div>
-                <div class="col-md-3 col-sm-6 my-3">
-                    <a href="#!"><img class="img-fluid d-block mx-auto" src="assets/img/logos/designmodo.jpg" alt="" /></a>
-                </div>
-                <div class="col-md-3 col-sm-6 my-3">
-                    <a href="#!"><img class="img-fluid d-block mx-auto" src="assets/img/logos/themeforest.jpg" alt="" /></a>
-                </div>
-                <div class="col-md-3 col-sm-6 my-3">
-                    <a href="#!"><img class="img-fluid d-block mx-auto" src="assets/img/logos/creative-market.jpg" alt="" /></a>
-                </div>
-            </div>
-        </div>
-    </div>
 
     <!-- Contact-->
-    <section class="page-section" id="contact">
-        <div class="container">
-            <div class="text-center">
-                <h2 class="section-heading text-uppercase">Contact Us</h2>
-                <h3 class="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</h3>
-            </div>
-            <form id="contactForm" name="sentMessage" novalidate="novalidate">
-                <div class="row align-items-stretch mb-5">
-                    <div class="col-md-6">
-                        <div class="form-group">
-                            <input class="form-control" id="name" type="text" placeholder="Your Name *" required="required" data-validation-required-message="Please enter your name." />
-                            <p class="help-block text-danger"></p>
-                        </div>
-                        <div class="form-group">
-                            <input class="form-control" id="email" type="email" placeholder="Your Email *" required="required" data-validation-required-message="Please enter your email address." />
-                            <p class="help-block text-danger"></p>
-                        </div>
-                        <div class="form-group mb-md-0">
-                            <input class="form-control" id="phone" type="tel" placeholder="Your Phone *" required="required" data-validation-required-message="Please enter your phone number." />
-                            <p class="help-block text-danger"></p>
-                        </div>
-                    </div>
-                    <div class="col-md-6">
-                        <div class="form-group form-group-textarea mb-md-0">
-                            <textarea class="form-control" id="message" placeholder="Your Message *" required="required" data-validation-required-message="Please enter a message."></textarea>
-                            <p class="help-block text-danger"></p>
-                        </div>
-                    </div>
-                </div>
-                <div class="text-center">
-                    <div id="success"></div>
-                    <button class="btn btn-primary btn-xl text-uppercase" id="sendMessageButton" type="submit">Send Message</button>
-                </div>
-            </form>
+    <div id="contact" class="map" style="margin-top: 0;">
+        <div class="text-center">
         </div>
-    </section>
+        <iframe class="my-6" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3960.1702798588353!2d110.40271761470557!3d-6.989214494951035!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e708bdf3d92b69b%3A0x9dd2d1049fa46b0!2sANUMA%20INTERIOR%20HOME%20LIVING!5e0!3m2!1sid!2sid!4v1616573613177!5m2!1sid!2sid" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+        <br />
+        <small>
+            <a href="https://www.google.co.id/maps/place/ANUMA+INTERIOR+HOME+LIVING/@-6.9892145,110.4027176,17z/data=!3m1!4b1!4m5!3m4!1s0x2e708bdf3d92b69b:0x9dd2d1049fa46b0!8m2!3d-6.9892145!4d110.4049063"></a>
+        </small>
+    </div>
     <!-- Footer-->
     <footer class="footer py-4">
         <div class="container">
             <div class="row align-items-center">
                 <div class="col-lg-4 text-lg-left">Copyright © Your Website 2020</div>
                 <div class="col-lg-4 my-3 my-lg-0">
-                    <a class="btn btn-dark btn-social mx-2" href="#!"><i class="fab fa-twitter"></i></a>
+                    <a class="btn btn-dark btn-social mx-2" href="#!"><i class="fab fa-whatsapp"></i></a>
                     <a class="btn btn-dark btn-social mx-2" href="#!"><i class="fab fa-facebook-f"></i></a>
                     <a class="btn btn-dark btn-social mx-2" href="#!"><i class="fab fa-linkedin-in"></i></a>
-                </div>
-                <div class="col-lg-4 text-lg-right">
-                    <a class="mr-3" href="#!">Privacy Policy</a>
-                    <a href="#!">Terms of Use</a>
                 </div>
             </div>
         </div>
@@ -787,6 +761,25 @@
         $('.carousel').carousel({
             interval: 0
         })
+
+
+        var onMapMouseleaveHandler = function(event) {
+            var that = $(this);
+            that.on('click', onMapClickHandler);
+            that.off('mouseleave', onMapMouseleaveHandler);
+            that.find('iframe').css("pointer-events", "none");
+        }
+        var onMapClickHandler = function(event) {
+            var that = $(this);
+            // Disable the click handler until the user leaves the map area
+            that.off('click', onMapClickHandler);
+            // Enable scrolling zoom
+            that.find('iframe').css("pointer-events", "auto");
+            // Handle the mouse leave event
+            that.on('mouseleave', onMapMouseleaveHandler);
+        }
+        // Enable map zooming with mouse scroll when the user clicks the map
+        $('.map').on('click', onMapClickHandler);
     </script>
 </body>
 
