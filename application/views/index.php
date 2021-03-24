@@ -118,6 +118,12 @@
             display: inline-block;
             line-height: 1em;
         }
+
+        .card {
+            padding: 2vh;
+            height: 90vh;
+            max-height: 500px;
+        }
     </style>
 </head>
 
@@ -178,7 +184,6 @@
                 <div class="col-md-4">
                     <span class="fa-stack fa-4x">
                         <i class="fas fa-circle fa-stack-2x text-primary"></i>
-                        <!-- <i class="fas fa-lock fa-stack-1x fa-inverse"></i> -->
                         <i class="fas fa-puzzle-piece fa-stack-1x fa-inverse"></i>
                     </span>
                     <h4 class="my-3" style="color: white;">Custom Design</h4>
@@ -188,11 +193,11 @@
         </div>
     </section>
 
-    <!-- Portfolio Grid-->
-    <section class="page-section bg-light" id="portfolio">
+    <!-- Product-->
+    <section class="page-section" id="portfolio" style="background-color: #21252 ;">
         <div class="container">
             <div class="text-center">
-                <h2 class="section-heading text-uppercase">Product</h2>
+                <h2 class="section-heading text-uppercase" style="color: white;">Product</h2>
                 <h3 class="section-subheading text-muted">Interior Menarik Menanti Anda</h3>
             </div>
             <div class="row">
@@ -202,11 +207,11 @@
                             <div class="portfolio-hover">
                                 <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
                             </div>
-                            <img class="img-fluid" src="<?= base_url('assets/'); ?>assets/img/product/sample-1.png" alt="" />
+                            <img class="img-fluid" src="<?= base_url('assets/'); ?>assets/img/product/bedset-mrs.seffin/pic1-square.jpg" alt="" />
                         </a>
-                        <div class="portfolio-caption">
-                            <div class="portfolio-caption-heading">Wardrobe Mr. Didik</div>
-                            <div class="portfolio-caption-subheading text-muted">Bedroom</div>
+                        <div class="portfolio-caption" style="background-color: #21252 ;">
+                            <div class="portfolio-caption-heading" style="background-color: #21252 ;">Bedset Mrs. Seffin</div>
+                            <div class="portfolio-caption-subheading text-muted" style="background-color: #21252;">Bedroom</div>
                         </div>
                     </div>
                 </div>
@@ -216,11 +221,11 @@
                             <div class="portfolio-hover">
                                 <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
                             </div>
-                            <img class="img-fluid" src="<?= base_url('assets/'); ?>assets/img/product/sample-2.png" alt="" />
+                            <img class="img-fluid" src="<?= base_url('assets/'); ?>assets/img/product/living-room.mrs.prisca/pic1-square.jpg" alt="" />
                         </a>
                         <div class="portfolio-caption">
-                            <div class="portfolio-caption-heading">Toilet Mrs. Yani</div>
-                            <div class="portfolio-caption-subheading text-muted">bathroom</div>
+                            <div class="portfolio-caption-heading">Living Room Mrs. Prisca</div>
+                            <div class="portfolio-caption-subheading text-muted">Living Room</div>
                         </div>
                     </div>
                 </div>
@@ -230,11 +235,11 @@
                             <div class="portfolio-hover">
                                 <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
                             </div>
-                            <img class="img-fluid" src="<?= base_url('assets/'); ?>assets/img/product/sample-3.png" alt="" />
+                            <img class="img-fluid" src="<?= base_url('assets/'); ?>assets/img/product/master-bedroom-mrs.maya/pic2-square.jpg" alt="" />
                         </a>
                         <div class="portfolio-caption">
-                            <div class="portfolio-caption-heading">Kitchen Set Mr. Pras</div>
-                            <div class="portfolio-caption-subheading text-muted">Kitchen</div>
+                            <div class="portfolio-caption-heading" style="font-size: 1.35rem;">Master Bedroom Mrs. Maya</div>
+                            <div class="portfolio-caption-subheading text-muted">Bedroom</div>
                         </div>
                     </div>
                 </div>
@@ -244,11 +249,11 @@
                             <div class="portfolio-hover">
                                 <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
                             </div>
-                            <img class="img-fluid" src="<?= base_url('assets/'); ?>assets/img/product/sample-4.png" alt="" />
+                            <img class="img-fluid" src="<?= base_url('assets/'); ?>assets/img/product/pt.indo-solution/pic1-square.jpeg" alt="" />
                         </a>
                         <div class="portfolio-caption">
-                            <div class="portfolio-caption-heading">Toilet Mahima Hotel</div>
-                            <div class="portfolio-caption-subheading text-muted">Bathro</div>
+                            <div class="portfolio-caption-heading">PT. Indo Solution</div>
+                            <div class="portfolio-caption-subheading text-muted">Office</div>
                         </div>
                     </div>
                 </div>
@@ -258,11 +263,11 @@
                             <div class="portfolio-hover">
                                 <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
                             </div>
-                            <img class="img-fluid" src="<?= base_url('assets/'); ?>assets/img/product/sample-5.png" alt="" />
+                            <img class="img-fluid" src="<?= base_url('assets/'); ?>assets/img/product/walking-closet-mr.arif/pic1-square.png" alt="" />
                         </a>
                         <div class="portfolio-caption">
-                            <div class="portfolio-caption-heading">Wardrobe Mrs. Yani</div>
-                            <div class="portfolio-caption-subheading text-muted">Bedroom</div>
+                            <div class="portfolio-caption-heading">Walking Closet Mr. Arif</div>
+                            <div class="portfolio-caption-subheading text-muted">???</div>
                         </div>
                     </div>
                 </div>
@@ -272,11 +277,11 @@
                             <div class="portfolio-hover">
                                 <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
                             </div>
-                            <img class="img-fluid" src="<?= base_url('assets/'); ?>assets/img/product/sample-6.png" alt="" />
+                            <img class="img-fluid" src="<?= base_url('assets/'); ?>assets/img/product/ortize-cafe/pic1-square.jpeg" alt="" />
                         </a>
                         <div class="portfolio-caption">
-                            <div class="portfolio-caption-heading">Kitchen Set Mrs. Yani</div>
-                            <div class="portfolio-caption-subheading text-muted">Kitchen</div>
+                            <div class="portfolio-caption-heading">Ortize Cafe</div>
+                            <div class="portfolio-caption-subheading text-muted">Cafe</div>
                         </div>
                     </div>
                 </div>
@@ -284,7 +289,7 @@
         </div>
     </section>
 
-    <!-- Team-->
+    <!-- Testimoni-->
     <section class="page-section bg-light" id="team">
         <div class="container">
             <div class="text-center">
@@ -293,34 +298,41 @@
             </div>
             <div class="row">
                 <div class="col-lg-4">
-                    <div class="team-member">
-                        <img class="mx-auto rounded-circle" src="<?= base_url('assets/'); ?>assets/img/testimoni/lisa.png" alt="" />
-                        <h4 style="margin-bottom: 5%;">Lisa Manoban</h4>
-                        <p class="text-muted">"Saya telah banyak mengeliarkan uang untuk membeli perabotan di Anuma Jaya, dan saya tidak menyesalinya"</p>
+                    <div class="card">
+                        <div class="team-member">
+                            <img class="mx-auto rounded-circle" src="<?= base_url('assets/'); ?>assets/img/testimoni/lisa.png" alt="" />
+                            <h4 style="margin-bottom: 5%;">Lisa Manoban</h4>
+                            <p class="text-muted">"Saya telah banyak mengeliarkan uang untuk membeli perabotan di Anuma Jaya, dan saya tidak menyesalinya"</p>
+                        </div>
                     </div>
                 </div>
                 <div class="col-lg-4">
-                    <div class="team-member">
-                        <img class="mx-auto rounded-circle" src="<?= base_url('assets/'); ?>assets/img/testimoni/jisoo.png" alt="" />
-                        <h4 style="margin-bottom: 5%;">Kim Jisoo</h4>
-                        <p class="text-muted">"Selama ini saya mencari barang interior di banyak tempat, namun masih belum sesuai dengan keinginanku. Kini, aku bisa menemukan barang yang aku impikan di Anuma Jaya"</p>
+                    <div class="card">
+                        <div class="team-member">
+                            <img class="mx-auto rounded-circle" src="<?= base_url('assets/'); ?>assets/img/testimoni/jisoo.png" alt="" />
+                            <h4 style="margin-bottom: 5%;">Kim Jisoo</h4>
+                            <p class="text-muted">"Selama ini saya mencari barang interior di banyak tempat, namun masih belum sesuai dengan keinginanku. Kini, aku bisa menemukan barang yang aku impikan di Anuma Jaya"</p>
+                        </div>
                     </div>
                 </div>
                 <div class="col-lg-4">
-                    <div class="team-member">
-                        <img class="mx-auto rounded-circle" src="<?= base_url('assets/'); ?>assets/img/testimoni/jennie.png" alt="" />
-                        <h4 style="margin-bottom: 5%;">Kim Jennie</h4>
-                        <p class="text-muted">"Tolong bantu aku!. Aku ketagihan membeli barang di Anuma Jaya. Aku kini menjadi pelanggan setia Anuma Jaya untuk selama-lamanya"</p>
+                    <div class="card">
+                        <div class="team-member">
+                            <img class="mx-auto rounded-circle" src="<?= base_url('assets/'); ?>assets/img/testimoni/jennie.png" alt="" />
+                            <h4 style="margin-bottom: 5%;">Kim Jennie</h4>
+                            <p class="text-muted">"Tolong bantu aku!. Aku ketagihan membeli barang di Anuma Jaya. Aku kini menjadi pelanggan setia Anuma Jaya untuk selama-lamanya"</p>
+                        </div>
                     </div>
                 </div>
             </div>
             <div class="row">
-                <div class="col-lg-8 mx-auto text-center">
+                <div class="col-lg-8 my-5 mx-auto text-center">
                     <p class="large text-muted">Blackpink telah menjadi Brand Ambassador Anuma Jaya sejak 2020 lalu. Mereka percaya dengan kualitas Anuma Jaya</p>
                 </div>
             </div>
         </div>
     </section>
+
     <!-- Clients-->
     <div class="py-5">
         <div class="container">
@@ -340,6 +352,7 @@
             </div>
         </div>
     </div>
+
     <!-- Contact-->
     <section class="page-section" id="contact">
         <div class="container">
@@ -399,20 +412,42 @@
     <div class="portfolio-modal modal fade" id="portfolioModal1" tabindex="-1" role="dialog" aria-hidden="true">
         <div class="modal-dialog">
             <div class="modal-content">
-                <div class="close-modal" data-dismiss="modal"><img src="assets/img/close-icon.svg" alt="Close modal" /></div>
+                <div class="close-modal" data-dismiss="modal"><img src="<?= base_url('assets/'); ?>assets/img/close-icon.svg" alt="Close modal" /></div>
                 <div class="container">
                     <div class="row justify-content-center">
                         <div class="col-lg-8">
                             <div class="modal-body">
                                 <!-- Project Details Go Here-->
-                                <h2 class="text-uppercase">Project Name</h2>
-                                <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
-                                <img class="img-fluid d-block mx-auto" src="assets/img/portfolio/01-full.jpg" alt="" />
+                                <h2 class="text-uppercase">Bedset Mrs. Seffin</h2>
+                                <p class="item-intro text-muted">Bedroom</p>
+                                <div id="carouselExampleIndicators1" class="carousel slide" data-ride="carousel">
+                                    <ol class="carousel-indicators">
+                                        <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                                        <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                                    </ol>
+                                    <div class="carousel-inner">
+                                        <div class="carousel-item active">
+                                            <img class="img-fluid d-block mx-auto" src="<?= base_url('assets/'); ?>assets/img/product/bedset-mrs.seffin/pic1~2.jpeg" class="d-block w-100" alt="...">
+                                        </div>
+                                        <div class="carousel-item">
+                                            <img class="img-fluid d-block mx-auto" src="<?= base_url('assets/'); ?>assets/img/product/bedset-mrs.seffin/pic1.jpeg" class="d-block w-100" alt="...">
+                                        </div>
+                                    </div>
+                                    <a class="carousel-control-prev" href="#carouselExampleIndicators1" role="button" data-slide="prev">
+                                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                        <span class="sr-only">Previous</span>
+                                    </a>
+                                    <a class="carousel-control-next" href="#carouselExampleIndicators1" role="button" data-slide="next">
+                                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                        <span class="sr-only">Next</span>
+                                    </a>
+                                </div>
+                                <!-- <img class="img-fluid d-block mx-auto" src="<?= base_url('assets/'); ?>assets/img/product/bedset-mrs.seffin/pic1~2.jpeg" alt="" /> -->
                                 <p>Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae, nostrum, reiciendis facere nemo!</p>
                                 <ul class="list-inline">
                                     <li>Date: January 2020</li>
-                                    <li>Client: Threads</li>
-                                    <li>Category: Illustration</li>
+                                    <li>Client: Mrs. Seffin</li>
+                                    <li>Category: Bedroom</li>
                                 </ul>
                                 <button class="btn btn-primary" data-dismiss="modal" type="button">
                                     <i class="fas fa-times mr-1"></i>
@@ -429,20 +464,42 @@
     <div class="portfolio-modal modal fade" id="portfolioModal2" tabindex="-1" role="dialog" aria-hidden="true">
         <div class="modal-dialog">
             <div class="modal-content">
-                <div class="close-modal" data-dismiss="modal"><img src="assets/img/close-icon.svg" alt="Close modal" /></div>
+                <div class="close-modal" data-dismiss="modal"><img src="<?= base_url('assets/'); ?>assets/img/close-icon.svg" alt="Close modal" /></div>
                 <div class="container">
                     <div class="row justify-content-center">
                         <div class="col-lg-8">
                             <div class="modal-body">
                                 <!-- Project Details Go Here-->
-                                <h2 class="text-uppercase">Project Name</h2>
-                                <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
+                                <h2 class="text-uppercase">Living Room Mrs. Prisca</h2>
+                                <p class="item-intro text-muted">Living Room</p>
+                                <div id="carouselExampleIndicators2" class="carousel slide" data-ride="carousel">
+                                    <ol class="carousel-indicators">
+                                        <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                                        <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                                    </ol>
+                                    <div class="carousel-inner">
+                                        <div class="carousel-item active">
+                                            <img class="img-fluid d-block mx-auto" src="<?= base_url('assets/'); ?>assets/img/product/living-room.mrs.prisca/pic1.jpeg" class="d-block w-100" alt="...">
+                                        </div>
+                                        <div class="carousel-item">
+                                            <img class="img-fluid d-block mx-auto" src="<?= base_url('assets/'); ?>assets/img/product/living-room.mrs.prisca/pic2.jpeg" class="d-block w-100" alt="...">
+                                        </div>
+                                    </div>
+                                    <a class="carousel-control-prev" href="#carouselExampleIndicators2" role="button" data-slide="prev">
+                                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                        <span class="sr-only">Previous</span>
+                                    </a>
+                                    <a class="carousel-control-next" href="#carouselExampleIndicators2" role="button" data-slide="next">
+                                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                        <span class="sr-only">Next</span>
+                                    </a>
+                                </div>
                                 <img class="img-fluid d-block mx-auto" src="assets/img/portfolio/02-full.jpg" alt="" />
                                 <p>Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae, nostrum, reiciendis facere nemo!</p>
                                 <ul class="list-inline">
                                     <li>Date: January 2020</li>
-                                    <li>Client: Explore</li>
-                                    <li>Category: Graphic Design</li>
+                                    <li>Client: Mrs. Prisca</li>
+                                    <li>Category: Living Room</li>
                                 </ul>
                                 <button class="btn btn-primary" data-dismiss="modal" type="button">
                                     <i class="fas fa-times mr-1"></i>
@@ -459,20 +516,46 @@
     <div class="portfolio-modal modal fade" id="portfolioModal3" tabindex="-1" role="dialog" aria-hidden="true">
         <div class="modal-dialog">
             <div class="modal-content">
-                <div class="close-modal" data-dismiss="modal"><img src="assets/img/close-icon.svg" alt="Close modal" /></div>
+                <div class="close-modal" data-dismiss="modal"><img src="<?= base_url('assets/'); ?>assets/img/close-icon.svg" alt="Close modal" /></div>
                 <div class="container">
                     <div class="row justify-content-center">
                         <div class="col-lg-8">
                             <div class="modal-body">
                                 <!-- Project Details Go Here-->
-                                <h2 class="text-uppercase">Project Name</h2>
-                                <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
+                                <h2 class="text-uppercase">Master Bedroom <br>Mrs. Maya</h2>
+                                <p class="item-intro text-muted">Bedroom</p>
+                                <div id="carouselExampleIndicators3" class="carousel slide" data-ride="carousel">
+                                    <ol class="carousel-indicators">
+                                        <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                                        <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                                        <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                                    </ol>
+                                    <div class="carousel-inner">
+                                        <div class="carousel-item active">
+                                            <img src="<?= base_url('assets/'); ?>assets/img/product/master-bedroom-mrs.maya/pic1.jpeg" class="d-block w-100" alt="...">
+                                        </div>
+                                        <div class="carousel-item">
+                                            <img src="<?= base_url('assets/'); ?>assets/img/product/master-bedroom-mrs.maya/pic2~2.jpeg" class="d-block w-100" alt="...">
+                                        </div>
+                                        <div class="carousel-item">
+                                            <img src="<?= base_url('assets/'); ?>assets/img/product/master-bedroom-mrs.maya/pic3~2.jpeg" class="d-block w-100" alt="...">
+                                        </div>
+                                    </div>
+                                    <a class="carousel-control-prev" href="#carouselExampleIndicators3" role="button" data-slide="prev">
+                                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                        <span class="sr-only">Previous</span>
+                                    </a>
+                                    <a class="carousel-control-next" href="#carouselExampleIndicators3" role="button" data-slide="next">
+                                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                        <span class="sr-only">Next</span>
+                                    </a>
+                                </div>
                                 <img class="img-fluid d-block mx-auto" src="assets/img/portfolio/03-full.jpg" alt="" />
                                 <p>Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae, nostrum, reiciendis facere nemo!</p>
                                 <ul class="list-inline">
                                     <li>Date: January 2020</li>
-                                    <li>Client: Finish</li>
-                                    <li>Category: Identity</li>
+                                    <li>Client: Mrs. Maya</li>
+                                    <li>Category: Bedroom</li>
                                 </ul>
                                 <button class="btn btn-primary" data-dismiss="modal" type="button">
                                     <i class="fas fa-times mr-1"></i>
@@ -489,20 +572,50 @@
     <div class="portfolio-modal modal fade" id="portfolioModal4" tabindex="-1" role="dialog" aria-hidden="true">
         <div class="modal-dialog">
             <div class="modal-content">
-                <div class="close-modal" data-dismiss="modal"><img src="assets/img/close-icon.svg" alt="Close modal" /></div>
+                <div class="close-modal" data-dismiss="modal"><img src="<?= base_url('assets/'); ?>assets/img/close-icon.svg" alt="Close modal" /></div>
                 <div class="container">
                     <div class="row justify-content-center">
                         <div class="col-lg-8">
                             <div class="modal-body">
                                 <!-- Project Details Go Here-->
-                                <h2 class="text-uppercase">Project Name</h2>
-                                <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
+                                <h2 class="text-uppercase">PT. Indo Solution</h2>
+                                <p class="item-intro text-muted">Office</p>
+                                <div id="carouselExampleIndicators4" class="carousel slide" data-ride="carousel">
+                                    <ol class="carousel-indicators">
+                                        <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                                        <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                                        <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                                        <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
+                                    </ol>
+                                    <div class="carousel-inner">
+                                        <div class="carousel-item active">
+                                            <img src="<?= base_url('assets/'); ?>assets/img/product/pt.indo-solution/pic1.jpeg" class="d-block w-100" alt="...">
+                                        </div>
+                                        <div class="carousel-item">
+                                            <img src="<?= base_url('assets/'); ?>assets/img/product/pt.indo-solution/pic2.jpeg" class="d-block w-100" alt="...">
+                                        </div>
+                                        <div class="carousel-item">
+                                            <img src="<?= base_url('assets/'); ?>assets/img/product/pt.indo-solution/pic3.jpeg" class="d-block w-100" alt="...">
+                                        </div>
+                                        <div class="carousel-item">
+                                            <img src="<?= base_url('assets/'); ?>assets/img/product/pt.indo-solution/pic4.jpeg" class="d-block w-100" alt="...">
+                                        </div>
+                                    </div>
+                                    <a class="carousel-control-prev" href="#carouselExampleIndicators4" role="button" data-slide="prev">
+                                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                        <span class="sr-only">Previous</span>
+                                    </a>
+                                    <a class="carousel-control-next" href="#carouselExampleIndicators4" role="button" data-slide="next">
+                                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                        <span class="sr-only">Next</span>
+                                    </a>
+                                </div>
                                 <img class="img-fluid d-block mx-auto" src="assets/img/portfolio/04-full.jpg" alt="" />
                                 <p>Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae, nostrum, reiciendis facere nemo!</p>
                                 <ul class="list-inline">
                                     <li>Date: January 2020</li>
-                                    <li>Client: Lines</li>
-                                    <li>Category: Branding</li>
+                                    <li>Client: PT. Indo Solution</li>
+                                    <li>Category: Office</li>
                                 </ul>
                                 <button class="btn btn-primary" data-dismiss="modal" type="button">
                                     <i class="fas fa-times mr-1"></i>
@@ -525,14 +638,48 @@
                         <div class="col-lg-8">
                             <div class="modal-body">
                                 <!-- Project Details Go Here-->
-                                <h2 class="text-uppercase">Project Name</h2>
-                                <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
+                                <h2 class="text-uppercase">Walking Closet Mr. Arif</h2>
+                                <p class="item-intro text-muted">???</p>
+                                <div id="carouselExampleIndicators5" class="carousel slide" data-ride="carousel">
+                                    <ol class="carousel-indicators">
+                                        <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                                        <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                                        <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                                        <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
+                                        <li data-target="#carouselExampleIndicators" data-slide-to="4"></li>
+                                    </ol>
+                                    <div class="carousel-inner">
+                                        <div class="carousel-item active">
+                                            <img src="<?= base_url('assets/'); ?>assets/img/product/walking-closet-mr.arif/pic1.jpeg" class="d-block w-100" alt="...">
+                                        </div>
+                                        <div class="carousel-item">
+                                            <img src="<?= base_url('assets/'); ?>assets/img/product/walking-closet-mr.arif/pic2.jpeg" class="d-block w-100" alt="...">
+                                        </div>
+                                        <div class="carousel-item">
+                                            <img src="<?= base_url('assets/'); ?>assets/img/product/walking-closet-mr.arif/pic3.jpeg" class="d-block w-100" alt="...">
+                                        </div>
+                                        <div class="carousel-item">
+                                            <img src="<?= base_url('assets/'); ?>assets/img/product/walking-closet-mr.arif/pic4.jpeg" class="d-block w-100" alt="...">
+                                        </div>
+                                        <div class="carousel-item">
+                                            <img src="<?= base_url('assets/'); ?>assets/img/product/walking-closet-mr.arif/pic5.jpeg" class="d-block w-100" alt="...">
+                                        </div>
+                                    </div>
+                                    <a class="carousel-control-prev" href="#carouselExampleIndicators5" role="button" data-slide="prev">
+                                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                        <span class="sr-only">Previous</span>
+                                    </a>
+                                    <a class="carousel-control-next" href="#carouselExampleIndicators5" role="button" data-slide="next">
+                                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                        <span class="sr-only">Next</span>
+                                    </a>
+                                </div>
                                 <img class="img-fluid d-block mx-auto" src="assets/img/portfolio/05-full.jpg" alt="" />
                                 <p>Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae, nostrum, reiciendis facere nemo!</p>
                                 <ul class="list-inline">
                                     <li>Date: January 2020</li>
-                                    <li>Client: Southwest</li>
-                                    <li>Category: Website Design</li>
+                                    <li>Client: Mr. Arif</li>
+                                    <li>Category: ???</li>
                                 </ul>
                                 <button class="btn btn-primary" data-dismiss="modal" type="button">
                                     <i class="fas fa-times mr-1"></i>
@@ -549,20 +696,54 @@
     <div class="portfolio-modal modal fade" id="portfolioModal6" tabindex="-1" role="dialog" aria-hidden="true">
         <div class="modal-dialog">
             <div class="modal-content">
-                <div class="close-modal" data-dismiss="modal"><img src="assets/img/close-icon.svg" alt="Close modal" /></div>
+                <div class="close-modal" data-dismiss="modal"><img src="<?= base_url('assets/'); ?>assets/img/close-icon.svg" alt="Close modal" /></div>
                 <div class="container">
                     <div class="row justify-content-center">
                         <div class="col-lg-8">
                             <div class="modal-body">
                                 <!-- Project Details Go Here-->
-                                <h2 class="text-uppercase">Project Name</h2>
-                                <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
+                                <h2 class="text-uppercase">Ortize Cafe</h2>
+                                <p class="item-intro text-muted">Cafe</p>
+                                <div id="carouselExampleIndicators6" class="carousel slide" data-ride="carousel">
+                                    <ol class="carousel-indicators">
+                                        <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                                        <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                                        <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                                        <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
+                                        <li data-target="#carouselExampleIndicators" data-slide-to="4"></li>
+                                    </ol>
+                                    <div class="carousel-inner">
+                                        <div class="carousel-item active">
+                                            <img src="<?= base_url('assets/'); ?>assets/img/product/ortize-cafe/pic1-square.jpeg" class="d-block w-100" alt="...">
+                                        </div>
+                                        <div class="carousel-item">
+                                            <img src="<?= base_url('assets/'); ?>assets/img/product/ortize-cafe/pic2-square.jpeg" class="d-block w-100" alt="...">
+                                        </div>
+                                        <div class="carousel-item">
+                                            <img src="<?= base_url('assets/'); ?>assets/img/product/ortize-cafe/pic3-square.jpeg" class="d-block w-100" alt="...">
+                                        </div>
+                                        <div class="carousel-item">
+                                            <img src="<?= base_url('assets/'); ?>assets/img/product/ortize-cafe/pic4-square.jpeg" class="d-block w-100" alt="...">
+                                        </div>
+                                        <div class="carousel-item">
+                                            <img src="<?= base_url('assets/'); ?>assets/img/product/ortize-cafe/pic5-square.jpeg" class="d-block w-100" alt="...">
+                                        </div>
+                                    </div>
+                                    <a class="carousel-control-prev" href="#carouselExampleIndicators6" role="button" data-slide="prev">
+                                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                        <span class="sr-only">Previous</span>
+                                    </a>
+                                    <a class="carousel-control-next" href="#carouselExampleIndicators6" role="button" data-slide="next">
+                                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                        <span class="sr-only">Next</span>
+                                    </a>
+                                </div>
                                 <img class="img-fluid d-block mx-auto" src="assets/img/portfolio/06-full.jpg" alt="" />
                                 <p>Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae, nostrum, reiciendis facere nemo!</p>
                                 <ul class="list-inline">
                                     <li>Date: January 2020</li>
-                                    <li>Client: Window</li>
-                                    <li>Category: Photography</li>
+                                    <li>Client: Ortize Cafe</li>
+                                    <li>Category: Cafe</li>
                                 </ul>
                                 <button class="btn btn-primary" data-dismiss="modal" type="button">
                                     <i class="fas fa-times mr-1"></i>
@@ -601,6 +782,11 @@
                 duration: 100,
                 delay: (el, i) => 150 * (i + 1)
             });
+    </script>
+    <script>
+        $('.carousel').carousel({
+            interval: 0
+        })
     </script>
 </body>
 
