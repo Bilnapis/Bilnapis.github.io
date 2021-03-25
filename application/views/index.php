@@ -286,8 +286,8 @@
                             <img class="img-fluid" src="<?= base_url('assets/'); ?>assets/img/product/walking-closet-mr.arif/pic1-square.png" alt="" />
                         </a>
                         <div class="portfolio-caption">
-                            <div class="portfolio-caption-heading">Bedroom Set Mr. Arif</div>
-                            <div class="portfolio-caption-subheading text-muted">Bedroom</div>
+                            <div class="portfolio-caption-heading">Walking Closet Mr. Arif</div>
+                            <div class="portfolio-caption-subheading text-muted">Bedroom Set</div>
                         </div>
                     </div>
                 </div>
@@ -321,7 +321,7 @@
                     <div class="card">
                         <div class="team-member">
                             <img class="mx-auto rounded-circle" src="<?= base_url('assets/'); ?>assets/img/testimoni/mr-riffi.jpeg" alt="" />
-                            <h4 style="margin-bottom: 5%;">Mr. Riffo</h4>
+                            <h4 style="margin-bottom: 5%;">Mr. Riffi</h4>
                             <p class="text-muted">"Top banget pelayanan dari Anuma Interior. Gak nyesel saya menggunakan jasa Anuma Interior."</p>
                         </div>
                     </div>
@@ -417,9 +417,8 @@
                                     </a>
                                 </div>
                                 <!-- <img class="img-fluid d-block mx-auto" src="<?= base_url('assets/'); ?>assets/img/product/bedset-mrs.seffin/pic1~2.jpeg" alt="" /> -->
-                                <p>Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae, nostrum, reiciendis facere nemo!</p>
+                                <p>Interior bed set dengan ukuran kamar tidak terlalu besar, namun tetap terlihat minimalis. Serta terkesan lebih bersih dengan nuansa warna putih</p>
                                 <ul class="list-inline">
-                                    <li>Date: January 2020</li>
                                     <li>Client: Mrs. Seffin</li>
                                     <li>Category: Bedroom</li>
                                 </ul>
@@ -469,9 +468,8 @@
                                     </a>
                                 </div>
                                 <img class="img-fluid d-block mx-auto" src="assets/img/portfolio/02-full.jpg" alt="" />
-                                <p>Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae, nostrum, reiciendis facere nemo!</p>
+                                <p>Gaya living room minimalis namun juga terlihat elegan. Ditambah dengan sekat partisi yang tinggi membuat kesan ruangan terlihat lebih gagah dan mewah</p>
                                 <ul class="list-inline">
-                                    <li>Date: January 2020</li>
                                     <li>Client: Mrs. Prisca</li>
                                     <li>Category: Living Room</li>
                                 </ul>
@@ -525,9 +523,8 @@
                                     </a>
                                 </div>
                                 <img class="img-fluid d-block mx-auto" src="assets/img/portfolio/03-full.jpg" alt="" />
-                                <p>Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae, nostrum, reiciendis facere nemo!</p>
+                                <p>Master bedroom tentunya sangat mendominasi kepribadian pemilik. Gaya master bedroom dengan jumlah kaca yang banyak, membuat kesan ruangan terlihat lebih luas</p>
                                 <ul class="list-inline">
-                                    <li>Date: January 2020</li>
                                     <li>Client: Mrs. Maya</li>
                                     <li>Category: Bedroom</li>
                                 </ul>
@@ -585,9 +582,8 @@
                                     </a>
                                 </div>
                                 <img class="img-fluid d-block mx-auto" src="assets/img/portfolio/04-full.jpg" alt="" />
-                                <p>Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae, nostrum, reiciendis facere nemo!</p>
+                                <p>Pemilihan interior set untuk kantor sangatah penting. Selain agar sesuai dengan konsep kantornya, pemilihan interior ini dapat membuat orang yg bekerja menjadi nyaman dan betah di kantor.</p>
                                 <ul class="list-inline">
-                                    <li>Date: January 2020</li>
                                     <li>Client: PT. Indo Solution</li>
                                     <li>Category: Office</li>
                                 </ul>
@@ -612,8 +608,8 @@
                         <div class="col-lg-8">
                             <div class="modal-body">
                                 <!-- Project Details Go Here-->
-                                <h2 class="text-uppercase">Bedroom Set Mr. Arif</h2>
-                                <p class="item-intro text-muted">Bedroom</p>
+                                <h2 class="text-uppercase">Walking Closet Mr. Arif</h2>
+                                <p class="item-intro text-muted">Bedroom Set</p>
                                 <div id="carouselExampleIndicators5" class="carousel slide" data-ride="carousel">
                                     <ol class="carousel-indicators">
                                         <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
@@ -649,11 +645,10 @@
                                     </a>
                                 </div>
                                 <img class="img-fluid d-block mx-auto" src="assets/img/portfolio/05-full.jpg" alt="" />
-                                <p>Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae, nostrum, reiciendis facere nemo!</p>
+                                <p>Untuk ruangan master bedroom yang besar biasanya pemanfaatannya adalah dengan mengisi interior walking closet. Dengan demikian ruangan master bedroom tidak terlalu kosong dan terkesan lebih rapi.</p>
                                 <ul class="list-inline">
-                                    <li>Date: January 2020</li>
                                     <li>Client: Mr. Arif</li>
-                                    <li>Category: ???</li>
+                                    <li>Category: Bedroom Set</li>
                                 </ul>
                                 <button class="btn btn-primary" data-dismiss="modal" type="button">
                                     <i class="fas fa-times mr-1"></i>
@@ -713,9 +708,8 @@
                                     </a>
                                 </div>
                                 <img class="img-fluid d-block mx-auto" src="assets/img/portfolio/06-full.jpg" alt="" />
-                                <p>Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae, nostrum, reiciendis facere nemo!</p>
+                                <p>Pembuatan interior cafe merupakan point penting saat akan mendirikan sebuah cafe, karena interior design lah yang sangat mencerminkan dan mendominasi cafe tersebut</p>
                                 <ul class="list-inline">
-                                    <li>Date: January 2020</li>
                                     <li>Client: Ortize Cafe</li>
                                     <li>Category: Cafe</li>
                                 </ul>
