@@ -144,6 +144,8 @@
             width: 100%;
             border: 0;
         }
+
+        @import url('https://fonts.googleapis.com/css2?family=Courgette&display=swap');
     </style>
 </head>
 
@@ -151,7 +153,8 @@
     <!-- Navigation-->
     <nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="mainNav">
         <div class="container">
-            <a class="navbar-brand js-scroll-trigger" href="#page-top"><img src="assets/img/navbar-logo.svg" alt="" /></a>
+            <a class="navbar-brand js-scroll-trigger" href="#page-top">
+            </a>
             <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
                 Menu
                 <i class="fas fa-bars ml-1"></i>
@@ -305,6 +308,48 @@
                         </div>
                     </div>
                 </div>
+                <div class="col-lg-4 col-sm-6 mt-4 mb-lg-0">
+                    <div class="portfolio-item">
+                        <a class="portfolio-link" data-toggle="modal" href="#portfolioModal7">
+                            <div class="portfolio-hover">
+                                <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
+                            </div>
+                            <img class="img-fluid" src="<?= base_url('assets/'); ?>assets\img\product\alula's-bedroom\pic1-square.jpg" alt="" />
+                        </a>
+                        <div class="portfolio-caption">
+                            <div class="portfolio-caption-heading" style="font-size: 1.35rem;">Alula's Bedroom</div>
+                            <div class="portfolio-caption-subheading text-muted">Bedroom</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-sm-6 mt-4 mb-sm-0">
+                    <div class="portfolio-item">
+                        <a class="portfolio-link" data-toggle="modal" href="#portfolioModal8">
+                            <div class="portfolio-hover">
+                                <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
+                            </div>
+                            <img class="img-fluid" src="<?= base_url('assets/'); ?>assets/img/product/pt-ies/pic1-square.jpg" alt="" />
+                        </a>
+                        <div class="portfolio-caption">
+                            <div class="portfolio-caption-heading">Office Set PT. IES</div>
+                            <div class="portfolio-caption-subheading text-muted">Ruangan HRD PT. IES</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-sm-6 mt-4 mb-sm-0">
+                    <div class="portfolio-item">
+                        <a class="portfolio-link" data-toggle="modal" href="#portfolioModal9">
+                            <div class="portfolio-hover">
+                                <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
+                            </div>
+                            <img class="img-fluid" src="<?= base_url('assets/'); ?>assets/img/product/sekat-mrs.rosa/pic1-square.jpg" alt="" />
+                        </a>
+                        <div class="portfolio-caption">
+                            <div class="portfolio-caption-heading">Sekat Mrs. Rosa</div>
+                            <div class="portfolio-caption-subheading text-muted">???</div>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
     </section>
@@ -343,11 +388,6 @@
                             <p class="text-muted">"Baru pertama kali nyoba menggunakan pelayanan Anuma Interior langsung bikin jatuh hati. Puas banget dengan pelayananya."</p>
                         </div>
                     </div>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-lg-8 my-5 mx-auto text-center">
-                    <!-- <p class="large text-muted">Blackpink telah menjadi Brand Ambassador Anuma Jaya sejak 2020 lalu. Mereka percaya dengan kualitas Anuma Jaya</p> -->
                 </div>
             </div>
         </div>
@@ -712,6 +752,151 @@
                                 <ul class="list-inline">
                                     <li>Client: Ortize Cafe</li>
                                     <li>Category: Cafe</li>
+                                </ul>
+                                <button class="btn btn-primary" data-dismiss="modal" type="button">
+                                    <i class="fas fa-times mr-1"></i>
+                                    Close Project
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Modal 7-->
+    <div class="portfolio-modal modal fade" id="portfolioModal7" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="close-modal" data-dismiss="modal"><img src="<?= base_url('assets/'); ?>assets/img/close-icon.svg" alt="Close modal" /></div>
+                <div class="container">
+                    <div class="row justify-content-center">
+                        <div class="col-lg-8">
+                            <div class="modal-body">
+                                <!-- Project Details Go Here-->
+                                <h2 class="text-uppercase">Alula's Bedroom</h2>
+                                <p class="item-intro text-muted">Bedroom</p>
+                                <div id="carouselExampleIndicators7" class="carousel slide" data-ride="carousel">
+                                    <ol class="carousel-indicators">
+                                        <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                                        <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                                    </ol>
+                                    <div class="carousel-inner">
+                                        <div class="carousel-item active">
+                                            <img src="<?= base_url('assets/'); ?>assets/img/product/alula's-bedroom/pic1.jpeg" class="d-block w-100" alt="...">
+                                        </div>
+                                        <div class="carousel-item">
+                                            <img src="<?= base_url('assets/'); ?>assets/img/product/alula's-bedroom/pic2.jpeg" class="d-block w-100" alt="...">
+                                        </div>
+                                    </div>
+                                    <a class="carousel-control-prev" href="#carouselExampleIndicators7" role="button" data-slide="prev">
+                                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                        <span class="sr-only">Previous</span>
+                                    </a>
+                                    <a class="carousel-control-next" href="#carouselExampleIndicators7" role="button" data-slide="next">
+                                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                        <span class="sr-only">Next</span>
+                                    </a>
+                                </div>
+                                <img class="img-fluid d-block mx-auto" src="assets/img/portfolio/06-full.jpg" alt="" />
+                                <p>???</p>
+                                <ul class="list-inline">
+                                    <li>Client: Alula</li>
+                                    <li>Category: Bedroom</li>
+                                </ul>
+                                <button class="btn btn-primary" data-dismiss="modal" type="button">
+                                    <i class="fas fa-times mr-1"></i>
+                                    Close Project
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Modal 8-->
+    <div class="portfolio-modal modal fade" id="portfolioModal8" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="close-modal" data-dismiss="modal"><img src="<?= base_url('assets/'); ?>assets/img/close-icon.svg" alt="Close modal" /></div>
+                <div class="container">
+                    <div class="row justify-content-center">
+                        <div class="col-lg-8">
+                            <div class="modal-body">
+                                <!-- Project Details Go Here-->
+                                <h2 class="text-uppercase">Office Set PT. IES</h2>
+                                <p class="item-intro text-muted">Ruangan HRD PT. IES</p>
+                                <div id="carouselExampleIndicators8" class="carousel slide" data-ride="carousel">
+                                    <ol class="carousel-indicators">
+                                        <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                                    </ol>
+                                    <div class="carousel-inner">
+                                        <div class="carousel-item active">
+                                            <img src="<?= base_url('assets/'); ?>assets/img/product/pt-ies/pic1.jpeg" class="d-block w-100" alt="...">
+                                        </div>
+                                    </div>
+                                    <a class="carousel-control-prev" href="#carouselExampleIndicators8" role="button" data-slide="prev">
+                                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                        <span class="sr-only">Previous</span>
+                                    </a>
+                                    <a class="carousel-control-next" href="#carouselExampleIndicators8" role="button" data-slide="next">
+                                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                        <span class="sr-only">Next</span>
+                                    </a>
+                                </div>
+                                <img class="img-fluid d-block mx-auto" src="assets/img/portfolio/06-full.jpg" alt="" />
+                                <p>???</p>
+                                <ul class="list-inline">
+                                    <li>Client: PT. IES</li>
+                                    <li>Category: Office</li>
+                                </ul>
+                                <button class="btn btn-primary" data-dismiss="modal" type="button">
+                                    <i class="fas fa-times mr-1"></i>
+                                    Close Project
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Modal 9-->
+    <div class="portfolio-modal modal fade" id="portfolioModal9" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="close-modal" data-dismiss="modal"><img src="<?= base_url('assets/'); ?>assets/img/close-icon.svg" alt="Close modal" /></div>
+                <div class="container">
+                    <div class="row justify-content-center">
+                        <div class="col-lg-8">
+                            <div class="modal-body">
+                                <!-- Project Details Go Here-->
+                                <h2 class="text-uppercase">Sekat Mrs. Rosa</h2>
+                                <p class="item-intro text-muted">???</p>
+                                <div id="carouselExampleIndicators9" class="carousel slide" data-ride="carousel">
+                                    <ol class="carousel-indicators">
+                                        <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                                    </ol>
+                                    <div class="carousel-inner">
+                                        <div class="carousel-item active">
+                                            <img src="<?= base_url('assets/'); ?>assets/img/product/sekat-mrs.rosa/pic1.jpeg" class="d-block w-100" alt="...">
+                                        </div>
+                                    </div>
+                                    <a class="carousel-control-prev" href="#carouselExampleIndicators9" role="button" data-slide="prev">
+                                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                        <span class="sr-only">Previous</span>
+                                    </a>
+                                    <a class="carousel-control-next" href="#carouselExampleIndicators9" role="button" data-slide="next">
+                                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                        <span class="sr-only">Next</span>
+                                    </a>
+                                </div>
+                                <img class="img-fluid d-block mx-auto" src="assets/img/portfolio/06-full.jpg" alt="" />
+                                <p>???</p>
+                                <ul class="list-inline">
+                                    <li>Client: Mrs. Rosa</li>
+                                    <li>Category: ???</li>
                                 </ul>
                                 <button class="btn btn-primary" data-dismiss="modal" type="button">
                                     <i class="fas fa-times mr-1"></i>
