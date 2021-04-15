@@ -399,15 +399,17 @@
 
 
     <!-- Contact-->
-    <div id="contact" class="map" style="margin-top: 0;">
-        <div class="text-center">
+    <section id="contact">
+        <div class="map" style="margin-top: 0;">
+            <div class="text-center">
+            </div>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3959.8958366223105!2d110.38267051477347!3d-7.021528894928141!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zN8KwMDEnMTcuNSJTIDExMMKwMjMnMDUuNSJF!5e0!3m2!1sen!2sid!4v1616577711350!5m2!1sen!2sid"></iframe>
+            <br />
+            <small>
+                <a href="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3959.8958366223105!2d110.38267051477347!3d-7.021528894928141!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zN8KwMDEnMTcuNSJTIDExMMKwMjMnMDUuNSJF!5e0!3m2!1sen!2sid!4v1616577711350!5m2!1sen!2sid"></a>
+            </small>
         </div>
-        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3959.8958366223105!2d110.38267051477347!3d-7.021528894928141!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zN8KwMDEnMTcuNSJTIDExMMKwMjMnMDUuNSJF!5e0!3m2!1sen!2sid!4v1616577711350!5m2!1sen!2sid"></iframe>
-        <br />
-        <small>
-            <a href="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3959.8958366223105!2d110.38267051477347!3d-7.021528894928141!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zN8KwMDEnMTcuNSJTIDExMMKwMjMnMDUuNSJF!5e0!3m2!1sen!2sid!4v1616577711350!5m2!1sen!2sid"></a>
-        </small>
-    </div>
+    </section>
     <!-- Footer-->
     <footer class="footer py-4">
         <div class="container">
@@ -457,7 +459,7 @@
                                     </a>
                                 </div>
                                 <!-- <img class="img-fluid d-block mx-auto" src="<?= base_url('assets/'); ?>assets/img/product/bedset-mrs.seffin/pic1~2.jpeg" alt="" /> -->
-                                <p>Interior bed set dengan ukuran kamar tidak terlalu besar, namun tetap terlihat minimalis. Serta terkesan lebih bersih dengan nuansa warna putih</p>
+                                <p>Dengan ukuran kamar yang sempit (3x3), tidak membatasi explore gaya si pemilik ruangan. Kesan black and white tetap menjadi favorit kalangan remaja masa kini.</p>
                                 <ul class="list-inline">
                                     <li>Client: Mrs. Seffin</li>
                                     <li>Category: Bedroom</li>
@@ -508,7 +510,7 @@
                                     </a>
                                 </div>
                                 <img class="img-fluid d-block mx-auto" src="assets/img/portfolio/02-full.jpg" alt="" />
-                                <p>Gaya living room minimalis namun juga terlihat elegan. Ditambah dengan sekat partisi yang tinggi membuat kesan ruangan terlihat lebih gagah dan mewah</p>
+                                <p>Ruangan yang sempit tidak membatasi penataan yang elegan dan gagah untuk ruang tamu Anda. Warna abu-abu dipadupadankan dengan gold akan membuat ruang kecil menjadi mewah.</p>
                                 <ul class="list-inline">
                                     <li>Client: Mrs. Prisca</li>
                                     <li>Category: Living Room</li>
@@ -563,7 +565,7 @@
                                     </a>
                                 </div>
                                 <img class="img-fluid d-block mx-auto" src="assets/img/portfolio/03-full.jpg" alt="" />
-                                <p>Master bedroom tentunya sangat mendominasi kepribadian pemilik. Gaya master bedroom dengan jumlah kaca yang banyak, membuat kesan ruangan terlihat lebih luas</p>
+                                <p>Master bedroom tentunya sangat mendominasi kepribadian pemilik. Gaya master bedroom mengkombinasi tone alami warna kayu dipadupadankan dengan brown miror ditambah dengan LED warm white membua kesan ruang jauh lebih mewah dan nyaman.</p>
                                 <ul class="list-inline">
                                     <li>Client: Mrs. Maya</li>
                                     <li>Category: Bedroom</li>
@@ -622,7 +624,7 @@
                                     </a>
                                 </div>
                                 <img class="img-fluid d-block mx-auto" src="assets/img/portfolio/04-full.jpg" alt="" />
-                                <p>Pemilihan interior set untuk kantor sangatah penting. Selain agar sesuai dengan konsep kantornya, pemilihan interior ini dapat membuat orang yg bekerja menjadi nyaman.</p>
+                                <p>Pemilihan interior set untuk kantor sangatlah penting. Selain agar sesuai dengan konsep kantornya, pemilihan interior ini dapat membuat orang yg bekerja menjadi nyaman.</p>
                                 <ul class="list-inline">
                                     <li>Client: PT. Indo Solution</li>
                                     <li>Category: Office</li>
@@ -846,7 +848,7 @@
                                     </a>
                                 </div>
                                 <img class="img-fluid d-block mx-auto" src="assets/img/portfolio/06-full.jpg" alt="" />
-                                <p>Untuk interior office dengan ruangan tidak terlalu besar, dapat diaplikasikan dengan membuat sudut dengan rak bersusun, selain menghemat tempat, design seperti itu membuat ruangan terkesan lebih luas</p>
+                                <p>Office adalah rumah kedua bagi kita. Kesan sederhana namun mewah akan tampak ketika tekstur stone bertemu dnegan wood lalu kita tambah dengan pencahayaan yang hangat.</p>
                                 <ul class="list-inline">
                                     <li>Client: PT. IES</li>
                                     <li>Category: Office</li>
