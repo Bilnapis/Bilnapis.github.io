@@ -346,7 +346,7 @@
                         </a>
                         <div class="portfolio-caption">
                             <div class="portfolio-caption-heading">Sekat Mrs. Rosa</div>
-                            <div class="portfolio-caption-subheading text-muted">???</div>
+                            <div class="portfolio-caption-subheading text-muted">Partisi</div>
                         </div>
                     </div>
                 </div>
@@ -799,7 +799,7 @@
                                     </a>
                                 </div>
                                 <img class="img-fluid d-block mx-auto" src="assets/img/portfolio/06-full.jpg" alt="" />
-                                <p>???</p>
+                                <p>Design interior untuk kamar anak perlu disesuaikan dengan karakter si kecil. Karena hal itulah yang mencerminkan kepribadian si kecil. Design unik dan lucu dapat menciptakan suasana happy bagi pemilik ruangan,dan tentunya membuat si kecil betah</p>
                                 <ul class="list-inline">
                                     <li>Client: Alula</li>
                                     <li>Category: Bedroom</li>
@@ -846,7 +846,7 @@
                                     </a>
                                 </div>
                                 <img class="img-fluid d-block mx-auto" src="assets/img/portfolio/06-full.jpg" alt="" />
-                                <p>???</p>
+                                <p>Untuk interior office dengan ruangan tidak terlalu besar, dapat diaplikasikan dengan membuat sudut dengan rak bersusun, selain menghemat tempat, design seperti itu membuat ruangan terkesan lebih luas</p>
                                 <ul class="list-inline">
                                     <li>Client: PT. IES</li>
                                     <li>Category: Office</li>
@@ -873,7 +873,7 @@
                             <div class="modal-body">
                                 <!-- Project Details Go Here-->
                                 <h2 class="text-uppercase">Sekat Mrs. Rosa</h2>
-                                <p class="item-intro text-muted">???</p>
+                                <p class="item-intro text-muted">Partisi</p>
                                 <div id="carouselExampleIndicators9" class="carousel slide" data-ride="carousel">
                                     <ol class="carousel-indicators">
                                         <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
@@ -893,10 +893,10 @@
                                     </a>
                                 </div>
                                 <img class="img-fluid d-block mx-auto" src="assets/img/portfolio/06-full.jpg" alt="" />
-                                <p>???</p>
+                                <p>Biasanya, untuk membatasi ruangan yang satu dengan ruangan yang lain, pemilik rumah mengaplikasikan sekat untuk membagi kedua ruangan tersebut. Selain untuk menghemat biaya, sekat ini juga dapat membuat ruangan tidak sempit atau terlihat lebih luas. Kami menawarkan berbagai macam design sekat, mulai dari CNC, sekat berongga, dll. Sekat milik Mrs. Rosa ini terlihat sangat minimalis dan mewah bukan ?</p>
                                 <ul class="list-inline">
                                     <li>Client: Mrs. Rosa</li>
-                                    <li>Category: ???</li>
+                                    <li>Category: Partisi</li>
                                 </ul>
                                 <button class="btn btn-primary" data-dismiss="modal" type="button">
                                     <i class="fas fa-times mr-1"></i>
