@@ -622,7 +622,7 @@
                                     </a>
                                 </div>
                                 <img class="img-fluid d-block mx-auto" src="assets/img/portfolio/04-full.jpg" alt="" />
-                                <p>Pemilihan interior set untuk kantor sangatah penting. Selain agar sesuai dengan konsep kantornya, pemilihan interior ini dapat membuat orang yg bekerja menjadi nyaman dan betah di kantor.</p>
+                                <p>Pemilihan interior set untuk kantor sangatah penting. Selain agar sesuai dengan konsep kantornya, pemilihan interior ini dapat membuat orang yg bekerja menjadi nyaman.</p>
                                 <ul class="list-inline">
                                     <li>Client: PT. Indo Solution</li>
                                     <li>Category: Office</li>
