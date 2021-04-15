@@ -184,7 +184,7 @@
         <div class="container">
             <div class="text-center">
                 <h2 class="section-heading text-uppercase" style="color: white;">Services</h2>
-                <h3 class="section-subheading text-muted" style="color: #f5f5f5 ;">Mengapa Harus Belanja di Anuma Jaya Interior Semarang? <br>Karena Anuma Jayaa melayani berbagai keperluan bangunan Anda dan melayani jasa design interior contractor, exhibition,office sett, partisi, dll.</h3>
+                <h3 class="section-subheading text-muted" style="color: #f5f5f5 ;">Mengapa Harus Belanja di Anuma Jaya Interior Semarang?</h3>
             </div>
             <div class="row text-center">
                 <div class="col-md-4">
