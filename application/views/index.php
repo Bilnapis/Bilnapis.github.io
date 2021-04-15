@@ -193,7 +193,7 @@
                         <i class="fas fa-check fa-stack-1x fa-inverse"></i>
                     </span>
                     <h4 class="my-3" style="color: white;">Kualitas Terbaik</h4>
-                    <p class="text-muted" style="color: #f5f5f5 ;">Kami selalu menghadirkan desain interior dengan kualitas unggul, jadi Anda tak perlu ragu. </p>
+                    <p class="text-muted" style="color: #f5f5f5 ;">Pilihan bahan terbaik adalah hal utama bagi kami. Memberikan garansi panjang juga merupakan bukti kualitas dari Anumajaya Interior Semarang.</p>
                 </div>
                 <div class="col-md-4">
                     <span class="fa-stack fa-4x">
@@ -202,7 +202,7 @@
                         <!-- <i class="fas fa-laptop fa-stack-1x fa-inverse"></i> -->
                     </span>
                     <h4 class="my-3" style="color: white;">Harga Terjangkau</h4>
-                    <p class="text-muted">Kualitas oke & harga terjangkau kami berikan untuk setiap produk dan jasa interior. </p>
+                    <p class="text-muted">Anuma Jaya Interior Semarang memeberikan kualitas produk yang bagus, dengan pilihan yang terbaik yang sesuai dengan harga yang didapatkan. Anda akan merasa worth it untuk pemesanan Anuma Jaya Interior Semarang.</p>
                 </div>
                 <div class="col-md-4">
                     <span class="fa-stack fa-4x">
@@ -210,7 +210,7 @@
                         <i class="fas fa-puzzle-piece fa-stack-1x fa-inverse"></i>
                     </span>
                     <h4 class="my-3" style="color: white;">Custom Design</h4>
-                    <p class="text-muted">Sesuaikan desain interior seperti yang Anda impikan.</p>
+                    <p class="text-muted">Sesuai dengan tagline kita "Your room, your taste", ciptakan suasana ruang seperti yang Anda inginkan.</p>
                 </div>
             </div>
         </div>
