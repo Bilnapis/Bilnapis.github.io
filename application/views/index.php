@@ -385,17 +385,15 @@
 
 
     <!-- Contact-->
-    <section id="contact">
-        <div class="map" style="margin-top: 0;">
-            <div class="text-center">
-            </div>
-            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3959.8958366223105!2d110.38267051477347!3d-7.021528894928141!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zN8KwMDEnMTcuNSJTIDExMMKwMjMnMDUuNSJF!5e0!3m2!1sen!2sid!4v1616577711350!5m2!1sen!2sid"></iframe>
-            <br />
-            <small>
-                <a href="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3959.8958366223105!2d110.38267051477347!3d-7.021528894928141!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zN8KwMDEnMTcuNSJTIDExMMKwMjMnMDUuNSJF!5e0!3m2!1sen!2sid!4v1616577711350!5m2!1sen!2sid"></a>
-            </small>
+    <div class="map" style="margin-top: 0;">
+        <div class="text-center">
         </div>
-    </section>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3959.8958366223105!2d110.38267051477347!3d-7.021528894928141!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zN8KwMDEnMTcuNSJTIDExMMKwMjMnMDUuNSJF!5e0!3m2!1sen!2sid!4v1616577711350!5m2!1sen!2sid"></iframe>
+        <br />
+        <small>
+            <a href="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3959.8958366223105!2d110.38267051477347!3d-7.021528894928141!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zN8KwMDEnMTcuNSJTIDExMMKwMjMnMDUuNSJF!5e0!3m2!1sen!2sid!4v1616577711350!5m2!1sen!2sid"></a>
+        </small>
+    </div>
 
     <!-- Footer-->
     <footer class="footer py-4">
