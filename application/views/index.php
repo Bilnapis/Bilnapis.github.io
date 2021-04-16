@@ -16,7 +16,6 @@
     <link href="https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700" rel="stylesheet" type="text/css" />
     <!-- Core theme CSS (includes Bootstrap)-->
     <link href="<?= base_url('assets/') ?>css/styles.css" rel="stylesheet" />
-    <!-- <link rel="stylesheet" href="<?= base_url('assets/') ?>font-awesome/css/font-awesome.min.css"> -->
 
     <style>
         body {
@@ -84,13 +83,6 @@
             transition: opacity ease-in-out 0.25s;
         }
 
-        /* Animation Text */
-        /* 
-        .ml11 {
-            font-weight: 700;
-            font-size: 3.5em;
-        } */
-
         .ml11 .text-wrapper {
             position: relative;
             display: inline-block;
@@ -127,12 +119,6 @@
 
         .map {
             height: 30rem;
-        }
-
-        @media (max-width: 992px) {
-            .map {
-                /* height: 90%; */
-            }
         }
 
         .map iframe {
@@ -410,6 +396,7 @@
             </small>
         </div>
     </section>
+
     <!-- Footer-->
     <footer class="footer py-4">
         <div class="container">
@@ -423,6 +410,7 @@
             </div>
         </div>
     </footer>
+
     <!-- Portfolio Modals-->
     <!-- Modal 1-->
     <div class="portfolio-modal modal fade" id="portfolioModal1" tabindex="-1" role="dialog" aria-hidden="true">
