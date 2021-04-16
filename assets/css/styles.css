@@ -1,4 +1,5 @@
 @charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Courgette&display=swap');
 /*!
 * Start Bootstrap - Agency v6.0.3 (https://startbootstrap.com/theme/agency)
 * Copyright 2013-2020 Start Bootstrap
@@ -4313,7 +4314,24 @@ input[type=button].btn-block {
   color: #fff;
 }
 
+.map {
+  height: 30rem;
+}
+
+.map iframe {
+  pointer-events: none;
+}
+
+.map iframe {
+  height: 100%;
+  width: 100%;
+  border: 0;
+}
+
 .card {
+  padding: 2vh;
+  height: 90vh;
+  max-height: 500px;
   position: relative;
   display: flex;
   flex-direction: column;
@@ -10076,7 +10094,7 @@ img::-moz-selection {
   letter-spacing: 0.0625em;
 }
 #mainNav .navbar-nav .nav-item .nav-link.active,#mainNav .navbar-nav .nav-item .nav-link:hover {
-  color: #9a7b4f;
+  color: #cf8e5d;
 }
 
 @media (min-width: 992px) {

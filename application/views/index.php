@@ -18,105 +18,6 @@
     <link href="<?= base_url('assets/') ?>css/styles.css" rel="stylesheet" />
 
     <style>
-        body {
-            background-color: #333333;
-        }
-
-        .btn-primary {
-            background-color: #65350f;
-            border-color: #65350f;
-        }
-
-        .btn-primary:hover {
-            color: #fff;
-            background-color: #79471f;
-            background-color: #79471f;
-        }
-
-        .btn-primary:focus,
-        .btn-primary.focus {
-            color: #fff;
-            background-color: #79471f;
-            background-color: #79471f;
-            box-shadow: 0 0 0 0.2rem rgba(254, 216, 84, 0.5);
-        }
-
-        .btn-primary.disabled,
-        .btn-primary:disabled {
-            color: #fff;
-            background-color: #79471f;
-            background-color: #79471f;
-        }
-
-        .btn-primary:not(:disabled):not(.disabled):active,
-        .btn-primary:not(:disabled):not(.disabled).active,
-        .show>.btn-primary.dropdown-toggle {
-            color: #fff;
-            background-color: #79471f;
-            background-color: #79471f;
-        }
-
-        .btn-primary:not(:disabled):not(.disabled):active:focus,
-        .btn-primary:not(:disabled):not(.disabled).active:focus,
-        .show>.btn-primary.dropdown-toggle:focus {
-            box-shadow: 0 0 0 0.2rem rgba(254, 216, 84, 0.5);
-        }
-
-        .text-primary {
-            color: #cc9966 !important;
-        }
-
-        #mainNav .navbar-nav .nav-item .nav-link.active,
-        #mainNav .navbar-nav .nav-item .nav-link:hover {
-            color: #cf8e5d;
-        }
-
-        #portfolio .portfolio-item .portfolio-link .portfolio-hover {
-            display: flex;
-            position: absolute;
-            width: 100%;
-            height: 100%;
-            background: #c96c;
-            align-items: center;
-            justify-content: center;
-            opacity: 0;
-            transition: opacity ease-in-out 0.25s;
-        }
-
-        .ml11 .text-wrapper {
-            position: relative;
-            display: inline-block;
-            padding-top: 0.1em;
-            padding-right: 0.05em;
-            padding-bottom: 0.15em;
-        }
-
-        .ml11 .line {
-            opacity: 0;
-            position: absolute;
-            left: 0;
-            height: 100%;
-            width: 3px;
-            background-color: #fff;
-            transform-origin: 0 50%;
-        }
-
-        .ml11 .line1 {
-            top: 0;
-            left: 0;
-        }
-
-        .ml11 .letter {
-            display: inline-block;
-            line-height: 1em;
-        }
-
-        .card {
-            padding: 2vh;
-            height: 90vh;
-            max-height: 500px;
-        }
-
         .map {
             height: 30rem;
         }
@@ -131,7 +32,7 @@
             border: 0;
         }
 
-        @import url('https://fonts.googleapis.com/css2?family=Courgette&display=swap');
+        /* @import url('https://fonts.googleapis.com/css2?family=Courgette&display=swap'); */
     </style>
 </head>
 
@@ -385,17 +286,15 @@
 
 
     <!-- Contact-->
-    <section id="contact">
-        <div class="map" style="margin-top: 0;">
-            <div class="text-center">
-            </div>
-            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3959.8958366223105!2d110.38267051477347!3d-7.021528894928141!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zN8KwMDEnMTcuNSJTIDExMMKwMjMnMDUuNSJF!5e0!3m2!1sen!2sid!4v1616577711350!5m2!1sen!2sid"></iframe>
-            <br />
-            <small>
-                <a href="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3959.8958366223105!2d110.38267051477347!3d-7.021528894928141!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zN8KwMDEnMTcuNSJTIDExMMKwMjMnMDUuNSJF!5e0!3m2!1sen!2sid!4v1616577711350!5m2!1sen!2sid"></a>
-            </small>
+    <div id="contact" class="map" style="margin-top: 0;">
+        <div class="text-center">
         </div>
-    </section>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3959.8958366223105!2d110.38267051477347!3d-7.021528894928141!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zN8KwMDEnMTcuNSJTIDExMMKwMjMnMDUuNSJF!5e0!3m2!1sen!2sid!4v1616577711350!5m2!1sen!2sid"></iframe>
+        <br />
+        <small>
+            <a href="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3959.8958366223105!2d110.38267051477347!3d-7.021528894928141!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zN8KwMDEnMTcuNSJTIDExMMKwMjMnMDUuNSJF!5e0!3m2!1sen!2sid!4v1616577711350!5m2!1sen!2sid"></a>
+        </small>
+    </div>
 
     <!-- Footer-->
     <footer class="footer py-4">
@@ -930,7 +829,6 @@
         $('.carousel').carousel({
             interval: 0
         })
-
 
         var onMapMouseleaveHandler = function(event) {
             var that = $(this);
